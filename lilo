@@ -1887,6 +1887,7 @@ install_development_apps(){
     echo "25) $(menu_item "postman-bin" "Postman") $AUR"
     echo "26) $(menu_item "gitkraken" "Gitkraken") $AUR"
     echo "27) $(menu_item "freecad" "FreeCad") $AUR"
+    echo "28) $(menu_item "dbeaver" "Dbeaver") $AUR"    
     echo ""
     echo " b) BACK"
     echo ""
@@ -1987,6 +1988,9 @@ install_development_apps(){
         27)
           aur_package_install "freecad"
           ;;
+        28)
+          package_install "dbeaver"
+          ;;          
         "b")
           break
           ;;

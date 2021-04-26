@@ -90,7 +90,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   # 14) i3-Gaps
   # 15) OpenBox
   # 16) Xmonad
-  DESKTOPENV="4"
+  DESKTOPENV=""
   #KDE {{{
     # 1) Choqok
     # 2) Digikam
@@ -99,7 +99,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     # 5) latte-dock
     # 6) Skrooge
     # 7) Yakuake
-    KDE_OPTIONS="1 2 3 6 7"
+    KDE_OPTIONS=""
   #}}}
   #ESSENTIAL APPS [Enlightenment,LXDE,Awesome,Fluxbox,OpenBox] {{{
     #  1) Display Manager
@@ -115,7 +115,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     # 11) Xcompmgr
     # 12) Zathura
     # 13) speedtest-cli
-    MISCAPPS="1 3"
+    MISCAPPS="13"
   #}}}
   #DISPLAY MANAGER {{{
     # 1) Entrance
@@ -125,11 +125,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     # 5) Slim
     # 6) lxdm
     # 7) lxdm-gtk
-    DISPLAY_MANAGER="3"
+    DISPLAY_MANAGER=""
   #}}}
   # 1) Icons Themes
   # 2) GTK2|GTK3 Themes
-    THEMES_OPTIONS="1 2"
+    THEMES_OPTIONS=""
   #ICONS THEMES {{{
     #  1) Arc
     #  2) Adwaita
@@ -141,7 +141,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #  8) Pop
     #  9) Solus
     # 10) Yaru
-    ICONS_THEMES="7"
+    ICONS_THEMES=""
   #}}}
   #GTK THEMES {{{
     #  1) Arc
@@ -154,7 +154,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #  8) Flat-Remix
     #  9) Zuki
     # 10) Zukitwo
-    GTK_THEMES="1"
+    GTK_THEMES=""
   #}}}
 #}}}
 #NETWORK MANAGER {{{
@@ -162,9 +162,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   # 2) Wicd
   # 3) ConnMan
   # n) None
-  NETWORKMANAGER="1"
-  USBMODEM="y" #USB 3G MODEM SUPPORT
-  BLUETOOTH="y" #BLUETOOTH SUPPORT
+  NETWORKMANAGER=""
+  USBMODEM="" #USB 3G MODEM SUPPORT
+  BLUETOOTH="" #BLUETOOTH SUPPORT
 #}}}
 #ACCESSORIES {{{
   #  1) Albert
@@ -177,8 +177,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   #  8) Shutter| Hotshots
   #  9) Synapse
   # 10) Terminator
-  # 11) Tilix
-  ACCESSORIES_OPTIONS="4 11"
+  # 12) Crossover
+  # 13) Insync
+  ACCESSORIES_OPTIONS="12 13"
 #}}}
 #DEVELOPEMENT {{{
   #  1) Atom
@@ -208,7 +209,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   # 25) Postman
   # 26) Gitkraken
   # 27) FreeCad
-  DEVELOPMENT_OPTIONS="18"
+  # 28) Dbeaver
+
+  DEVELOPMENT_OPTIONS="21 24 25 28"
 #}}}
 #OFFICE {{{
   #  1) Abiword+Gnumeric|Calligra
@@ -243,7 +246,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   # 16) netdata
   # 17) nload
   # 18) vmware-workstation 12
-  SYSTEMTOOLS_OPTIONS="12 14"
+  SYSTEMTOOLS_OPTIONS="4 14"
 #}}}
 #GRAPHICS {{{
   #  1) Blender
@@ -258,7 +261,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   # 10) Shotwell
   # 11) Simple Scan
   # 12) YACReader
-  GRAPHICS_OPTIONS="2 3 4 6 10"
+  GRAPHICS_OPTIONS="1 2 3 4 6 10"
 #}}}
 #INTERNET {{{
   # 1) Browser
@@ -277,7 +280,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     # 6) Vivaldi
     # 7) Tor-browser
     # 8) Brave
-    BROWSERS_OPTIONS="3"
+    BROWSERS_OPTIONS="1 2 3 7"
   #}}}
   #DOWNLOAD|FILESHARE {{{
     #  1) Deluge
@@ -297,12 +300,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     # 15) Youtube-dl
     # 16) Megasync
     # 17) Extreme Download Manager
-    DOWNLOAD_OPTIONS="13"
+    DOWNLOAD_OPTIONS="7 13"
   #}}}
   #EMAIL|RSS {{{
     # 1) Liferea
     # 2) Thunderbird
-    EMAIL_OPTIONS=""
+    EMAIL_OPTIONS="2"
   #}}}
   #IM|IRC {{{
     #  1) HexChat|Konversation
@@ -319,25 +322,27 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     # 12) Slack
     # 13) VK Messanger
     # 14) Zoom.us
-    IM_OPTIONS="5"
+    # 15) Teams
+    IM_OPTIONS="5 11 12 14 15"
   #}}}
   #MAPPING {{{
     # 1) Anydesk
     # 2) Google Earth
     # 3) QGIS
-    MAPPING_OPTIONS=""
+    MAPPING_OPTIONS="3"
   #}}}
   #VNC|Desktop Share {{{
-    # 1) Remmina
-    # 2) Teamviewer
-    VNC_OPTIONS=""
+    # 1  Anydesk
+    # 2) Remmina
+    # 3) Teamviewer
+    VNC_OPTIONS="2 3"
   #}}}
 #}}}
 #AUDIO {{{
   # 1) Players
   # 2) Editors|Tools
   # 3) Codecs
-  AUDIO_OPTIONS="1-3"
+  AUDIO_OPTIONS=""
   #PLAYERS {{{
     #  1) Amarok
     #  2) Audacious
@@ -351,21 +356,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     # 10) Spotify
     # 11) Timidity++
     # 12) quodlibet
-    AUDIO_PLAYER_OPTIONS="9"
+    AUDIO_PLAYER_OPTIONS="10"
   #}}}
   #EDITORS|TOOLS {{{
     # 1) Audacity
     # 2) Easytag
     # 3) OcenAudio
     # 4) Soundconverter|Soundkonverter
-    AUDIO_EDITOR_OPTIONS="2"
+    AUDIO_EDITOR_OPTIONS=""
   #}}}
 #}}}
 #VIDEO {{{
   # 1) Players
   # 2) Editors|Tools
   # 3) Codecs
-  VIDEO_OPTIONS="1-3"
+  VIDEO_OPTIONS=""
   #PLAYERS {{{
     #  1) Gnome Mplayer
     #  2) LiveStreamer
@@ -377,7 +382,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #  8) Popcorn Time
     #  9) VLC
     # 10) Kodi
-    VIDEO_PLAYER_OPTIONS="8"
+    VIDEO_PLAYER_OPTIONS="7 8"
   #}}}
   #EDITORS|TOOLS {{{
     # 1) Arista
@@ -405,8 +410,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   # 2) LAPP - APACHE, POSTGRESQL & PHP
   # 3) LEMP - NGINX, MariaDB & PHP
   # 4) LEPP - NGINX, POSTGRESQL & PHP
-  WEBSERVER="4"
-  POSTGIS="n"
+  WEBSERVER=""
+  POSTGIS=""
 #}}}
 #FONTS {{{
   #  1) ttf-dejavu
