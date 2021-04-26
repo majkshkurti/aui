@@ -1789,6 +1789,8 @@ install_accessories_apps(){
     echo " 9) $(menu_item "synapse")"
     echo "10) $(menu_item "terminator")"
     echo "11) $(menu_item "tilix-bin") $AUR"
+    echo "12) $(menu_item "insync") $AUR"
+    echo "13) $(menu_item "crossover") $AUR"
     echo ""
     echo " b) BACK"
     echo ""
@@ -1834,6 +1836,12 @@ install_accessories_apps(){
           ;;
         11)
           aur_package_install "tilix-bin"
+          ;;
+        12)
+          aur_package_install "insync"
+          ;;
+        13)
+          aur_package_install "crossover"
           ;;
         "b")
           break
@@ -2298,6 +2306,7 @@ install_internet_apps(){
             echo " 6) $(menu_item "vivaldi") $AUR"
             echo " 7) $(menu_item "tor browser") $AUR"
 	          echo " 8) $(menu_item "brave browser") $AUR"
+	          echo " 9) $(menu_item "mullvad-vpn-bin" "Mullvad VPN") $AUR"
             echo ""
             echo " b) BACK"
             echo ""
@@ -2332,6 +2341,9 @@ install_internet_apps(){
                   ;;
                 8)
                   aur_package_install "brave-browser"
+                  ;;
+                9)
+                  aur_package_install "mullvad-vpn-bin"
                   ;;
                 "b")
                   break
@@ -2500,6 +2512,7 @@ install_internet_apps(){
             echo "12) $(menu_item "slack") $AUR"
             echo "13) $(menu_item "vk-messenger") $AUR"
             echo "14) $(menu_item "zoom") $AUR"
+            echo "15) $(menu_item "teams") $AUR"
             echo ""
             echo " b) BACK"
             echo ""
@@ -2552,6 +2565,9 @@ install_internet_apps(){
                   ;;
                 14)
                   aur_package_install "zoom"
+                  ;;
+                15)
+                  aur_package_install "teams"
                   ;;
                 "b")
                   break
